@@ -86,5 +86,15 @@ node default {
     target => $boxen::config::repodir
   }
 
-  include macvim
+  include fasd
+  include chrome::dev
+  include firefox
+  include python
+  include nginx
+  include skype
+  include postgres
+  include tmux
+  include gitx
+  include wget
+  include dropbox
 }
