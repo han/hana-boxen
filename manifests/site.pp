@@ -91,8 +91,8 @@ node default {
   include firefox
   include python
   include nginx
-  include skype
-  include postgres
+#  include skype  -- not working yet
+  include postgresql
   include tmux
   include gitx
   include wget
